@@ -1,3 +1,7 @@
+This fork adds support for passing a custom updateElement function
+to Ajax.Autocompleter and makes the view helper generate code that
+can target a custom input field ID.
+
 Example:
 
   # Controller
@@ -17,7 +21,6 @@ the find method used to search for the records:
   auto_complete_for :post, :title, :limit => 15, :order => 'created_at DESC'
 
 For more examples, see script.aculo.us:
-* http://script.aculo.us/demos/ajax/autocompleter
-* http://script.aculo.us/demos/ajax/autocompleter_customized
+* http://wiki.github.com/madrobby/scriptaculous/ajax-autocompleter
 
-Copyright (c) 2007 David Heinemeier Hansson, released under the MIT license   
+Copyright (c) 2007 David Heinemeier Hansson, released under the MIT license
